@@ -35,10 +35,17 @@ jobs:
 
       - name: Sync Capacitor
         run: npx cap sync android
+        env:
+          CAPACITOR_ANDROID_STUDIO_PATH: /opt/android-studio
+
+      - name: Copy Web Assets
+        run: |
+          rm -rf android/app/src/main/assets/public
+          cp -r dist android/app/src/main/assets/public
 
       - name: Build Debug APK
         working-directory: ./android
-        run: ./gradlew assembleDebug
+        run: chmod +x gradlew && ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
