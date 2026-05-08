@@ -1,0 +1,21 @@
+{
+  "name": "LinguaWorld - 多语种学习平台",
+  "short_name": "LinguaWorld",
+  "description": "支持英语、日语、韩语等多语言的沉浸式学习平台",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "languages"],
+  "lang": "zh-CN",
+  "screenshots": []
+}

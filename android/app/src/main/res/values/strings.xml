@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LinguaWorld</string>
+    <string name="title_activity_main">LinguaWorld</string>
+    <string name="package_name">com.linguaworld.app</string>
+    <string name="custom_url_scheme">com.linguaworld.app</string>
+</resources>
